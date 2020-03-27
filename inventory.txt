@@ -1,0 +1,1 @@
+appsrv1		ansible_host=vm-lab-srv1 	ansible_ssh_pass=virtual*2020
