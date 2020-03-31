@@ -1,6 +1,8 @@
 -
   name: Copy files to target servers
-  hosts: localhost,all
+  hosts: all
+#  vars:
+#     webserver_file: '/tmp/test-file.txt'
   tasks:
     - name: Copy files to target servers
       copy:
@@ -9,5 +11,5 @@
 
     - name: Check line to the file and add if it does not exist
       lineinfile:
-         path: /tmp/test-file.txt
+         path: '{{ webserver_file }}'
          line: 'nameserver x.x.x.x'

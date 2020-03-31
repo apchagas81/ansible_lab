@@ -4,8 +4,6 @@
 web1 ansible_host=vm-lab-srv1 ansible_connection=ssh ansible_user=labadmin ansible_ssh_private_key_file=~/.ssh/virtualsrv 
 web2 ansible_host=vm-lab-srv2 ansible_connection=ssh ansible_user=labadmin ansible_ssh_private_key_file=~/.ssh/virtualsrv 
 web3 ansible_host=vm-lab-srv3 ansible_connection=ssh ansible_user=labadmin ansible_ssh_private_key_file=~/.ssh/virtualsrv 
-#web2 ansible_host=vm-lab-srv3 ansible_connection=ssh ansible_user=root ansible_ssh_pass=#130914LA#
-#web3 ansible_host=vm-lab-srv3 ansible_connection=ssh ansible_user=root ansible_ssh_pass=#130914LA#
 
 # Database Servers
 #db1 ansible_host=vm-lab-ws1 ansible_connection=winrm ansible_user=labadmin ansible_password=virtual*2020
