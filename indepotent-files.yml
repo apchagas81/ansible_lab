@@ -1,0 +1,13 @@
+-
+  name: Copy files to target servers
+  hosts: localhost,all
+  tasks:
+    - name: Copy files to target servers
+      copy:
+         src: /tmp/test-file.txt
+         dest: /tmp/test-file.txt
+
+    - name: Check line to the file and add if it does not exist
+      lineinfile:
+         path: /tmp/test-file.txt
+         line: 'nameserver x.x.x.x'
