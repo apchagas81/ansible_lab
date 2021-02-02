@@ -1,0 +1,6 @@
+-
+  name: Basic of ansible playbook
+  hosts: all
+  tasks:
+        - name: Ping Test
+          ping:
