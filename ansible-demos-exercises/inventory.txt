@@ -1,2 +1,0 @@
-vm-lab-srv1	ansible_host=vm-lab-srv1	ansible_connection=ssh	ansible_user=labuser 
-vm-lab-srv2	ansible_host=vm-lab-srv2	ansible_connection=ssh	ansible_user=labuser
