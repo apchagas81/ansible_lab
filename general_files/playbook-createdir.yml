@@ -1,0 +1,12 @@
+---
+# Andre Pereira Cesar Chagas
+-
+  name: Copy file to target server
+  hosts: all
+  tasks:
+        -
+                name: 'create a /tmp/new_dir directory'
+                #command: mkdir /tmp/new_dir creates=/tmp/new_dir
+                file:
+                        path: /tmp/new_dir
+                        state: directory
